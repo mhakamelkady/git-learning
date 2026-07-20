@@ -1,0 +1,14 @@
+name: First Workflow
+on:
+  push: 
+     branches:
+       - main 
+
+jobs:
+  example-job:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: print welcome message
+        run: echo "Welcome message from hakam"
+         

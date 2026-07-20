@@ -11,4 +11,10 @@ jobs:
     steps:
       - name: print welcome message
         run: echo "Welcome message from hakam"
+
+      - name: checout repository  
+        uses: actions/checkout@v7.0.0
+
+      - name: list repository  
+        run: ls -lha 
          
